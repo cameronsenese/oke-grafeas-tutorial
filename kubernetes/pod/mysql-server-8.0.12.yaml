@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mysql-server
+spec:
+  containers:
+    - name: mysql-server
+      image: "docker.io/mysql/mysql-server@sha256:58c5d4635ab6c6ec23b542a274b9881dca62de19c793a8b8227a830a83bdbbdd"
+      imagePullPolicy: Always

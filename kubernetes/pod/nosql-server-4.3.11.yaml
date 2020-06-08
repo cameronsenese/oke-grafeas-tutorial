@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nosql-server
+spec:
+  containers:
+    - name: nosql-server
+      image: "docker.io/oracle/nosql:4.3.11"
+      imagePullPolicy: Always

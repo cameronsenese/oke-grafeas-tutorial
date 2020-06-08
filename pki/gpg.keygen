@@ -1,0 +1,8 @@
+Key-Type: default
+Subkey-Type: default
+Name-Real: signatory
+Name-Comment: example key signatory
+Name-Email: signatory@example.com
+Expire-Date: 0
+%commit
+%echo done
